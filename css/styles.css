@@ -9,7 +9,7 @@ none: tag
 
 *{
     padding: 0;
-    padding: 0;
+    margin: 0;
     /*list-style: none;*/
     /*text-decoration: none;*/
 }
@@ -88,12 +88,17 @@ nav a{
     text-align: center;
 }
 
-.content-area h2 {
+.content-area h2{
     font-family: 'Montserrat';
     letter-spacing: 3px;
     padding-top: 30px;
     font-size: 30px;
-    text-align: center;
+    margin: 0;
+}
+
+.content-area p{
+    padding: 2% 0;
+    line-height: 30px;
 }
 
 .footer {
